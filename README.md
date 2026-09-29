@@ -4,9 +4,9 @@ Sitio personal estático (HTML, CSS y JavaScript, sin dependencias) publicado en
 
 El inicio cambia según quién visita: **Reclutador**, **Cliente** o **Desarrollador**. La elección se guarda en el navegador y se refleja en la URL, así que puedes compartir un enlace directo a cada versión:
 
-- `https://tu-dominio/?para=reclutador`
-- `https://tu-dominio/?para=cliente`
-- `https://tu-dominio/?para=dev`
+- https://cesar-rocha.vercel.app/?para=reclutador
+- https://cesar-rocha.vercel.app/?para=cliente
+- https://cesar-rocha.vercel.app/?para=dev
 
 ## Estructura
 
@@ -17,7 +17,7 @@ public/
   script.js     Textos de cada tipo de visitante, copiar correo y acordeón
   404.html      Página de error
   favicon.svg
-  img/          Fotos (retrato y laguna), en WebP
+  img/          Fotos (retrato y laguna) e imagen para compartir (og.jpg)
 vercel.json     Le dice a Vercel que publique la carpeta public/
 ```
 
