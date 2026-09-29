@@ -6,9 +6,12 @@
     linkedin: "https://www.linkedin.com/in/cesar-ricardo-rocha-robledo-bb0331345",
     github: "https://github.com/cerirocha",
     portalnexo: "https://github.com/cerirocha/portalnexo",
-    // Ruta a tu CV dentro de public/ (por ejemplo "cv.pdf"). Vacío = el botón muestra "Escríbeme".
-    cv: "",
+    // Ruta a tu CV dentro de public/. Vacío = el botón de reclutador muestra "Escríbeme".
+    cv: "cv.pdf",
   };
+
+  // Nombre con el que se guarda el CV al descargarlo.
+  const NOMBRE_CV = "CV - César Ricardo Rocha Robledo.pdf";
 
   // Lo que cambia según quién visita. Cada `items` es una lista de [título, descripción].
   const AUDIENCIAS = {
@@ -16,7 +19,7 @@
       titulo: "Desarrollador full stack en Altamira, hoy en PBXHosting.",
       lead: "Ingeniero en Electrónica y Automatización. Diseño plataformas web SaaS para empresas: backend en Python con FastAPI, frontend en Vue 3 con TypeScript e integraciones con WhatsApp Business y Stripe.",
       cta1: ENLACES.cv
-        ? { texto: "Descargar CV", href: ENLACES.cv }
+        ? { texto: "Descargar CV", href: ENLACES.cv, descarga: NOMBRE_CV }
         : { texto: "Escríbeme", href: ENLACES.correo },
       cta2: { texto: "LinkedIn ↗", href: ENLACES.linkedin },
       panel: "Para reclutadores",
@@ -81,9 +84,14 @@
     }
   }
 
-  function ponerEnlace(elemento, { texto, href }) {
+  function ponerEnlace(elemento, { texto, href, descarga }) {
     elemento.textContent = texto;
     elemento.href = href;
+    if (descarga) {
+      elemento.setAttribute("download", descarga);
+    } else {
+      elemento.removeAttribute("download");
+    }
   }
 
   function pintar(id) {

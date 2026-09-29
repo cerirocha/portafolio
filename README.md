@@ -25,7 +25,7 @@ vercel.json     Le dice a Vercel que publique la carpeta public/
 
 - **Textos por tipo de visitante:** objeto `AUDIENCIAS` en `public/script.js`. El HTML trae la versión de reclutador para quien navega sin JavaScript. Si cambias esos textos, cámbialos también en `index.html`.
 - **Proyectos:** cada `<details class="proyecto">` en `public/index.html`.
-- **CV:** copia tu PDF a `public/cv.pdf` y pon `cv: "cv.pdf"` en `ENLACES` dentro de `script.js`. Con eso, el botón principal de reclutador cambia a "Descargar CV".
+- **CV:** está en `public/cv.pdf` y se descarga desde el botón de reclutador y desde Contacto. Para actualizarlo, reemplaza ese archivo con el mismo nombre.
 - **Capturas de proyectos:** guarda la imagen en `public/img/` y agrégala dentro de la `.proyecto-vista` correspondiente:
 
   ```html
