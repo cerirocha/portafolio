@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>César Rocha · Desarrollador Full Stack</title>
+    <meta
+      name="description"
+      content="César Rocha, desarrollador full stack en Altamira, Tamaulipas. Plataformas web SaaS, APIs en Python, frontend en Vue y React, y visión por computadora."
+    />
+    <meta name="theme-color" content="#121110" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:title" content="César Rocha · Desarrollador Full Stack" />
+    <meta
+      property="og:description"
+      content="Plataformas web SaaS, APIs en Python y frontend en Vue y React. Altamira, Tamaulipas, México."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="barra">
+      <a class="marca" href="#inicio">César Rocha</a>
+      <nav class="barra-nav" aria-label="Secciones">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="boton boton-primario boton-chico" href="#contacto">Escríbeme</a>
+    </header>
+
+    <main id="contenido">
+      <section class="inicio lado" id="inicio">
+        <div class="inicio-arriba">
+          <p class="estado">
+            <img class="estado-foto" src="img/retrato.webp" alt="" width="32" height="32" />
+            <span class="estado-punto" aria-hidden="true"></span>
+            Disponible para nuevos proyectos
+            <span class="estado-lugar">· Altamira, Tamaulipas</span>
+          </p>
+          <div class="selector">
+            <span id="selector-etiqueta">Estoy aquí como</span>
+            <div class="segmentos" role="group" aria-labelledby="selector-etiqueta">
+              <button type="button" data-audiencia="reclutador" aria-pressed="true">Reclutador</button>
+              <button type="button" data-audiencia="cliente" aria-pressed="false">Cliente</button>
+              <button type="button" data-audiencia="dev" aria-pressed="false">Desarrollador</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="inicio-cuerpo" aria-live="polite">
+          <div class="inicio-texto">
+            <h1 data-campo="titulo">Desarrollador full stack en Altamira, hoy en PBXHosting.</h1>
+            <p class="entrada" data-campo="lead">
+              Ingeniero en Electrónica y Automatización. Diseño plataformas web SaaS para empresas:
+              backend en Python con FastAPI, frontend en Vue 3 con TypeScript e integraciones con
+              WhatsApp Business y Stripe.
+            </p>
+            <div class="acciones">
+              <a class="boton boton-primario" data-campo="cta1" href="mailto:cesar.r.rocharobledo@gmail.com">Escríbeme</a>
+              <a
+                class="boton boton-secundario"
+                data-campo="cta2"
+                href="https://www.linkedin.com/in/cesar-ricardo-rocha-robledo-bb0331345"
+                >LinkedIn ↗</a
+              >
+            </div>
+          </div>
+
+          <aside class="panel" aria-labelledby="panel-titulo">
+            <h2 class="panel-titulo" id="panel-titulo" data-campo="panel">Para reclutadores</h2>
+            <dl class="panel-lista" data-campo="items">
+              <div>
+                <dt>Experiencia</dt>
+                <dd>Technology Lead en Digital Boost Factory (nuevo) · Full Stack en PBXHosting · antes Alphagary (Orbia) · Freelance desde 2023</dd>
+              </div>
+              <div>
+                <dt>Formación</dt>
+                <dd>Ingeniería en Electrónica y Automatización, Universidad Politécnica de Altamira</dd>
+              </div>
+              <div>
+                <dt>Idiomas</dt>
+                <dd>Español nativo · Inglés avanzado (B2) · Francés intermedio (B1)</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="marquesina" aria-label="Herramientas">
+        <p class="sr-only">
+          Python, FastAPI, Vue 3, TypeScript, React, Next.js, Django, Flutter, OpenCV, PyTorch,
+          MariaDB, Firebase y Docker.
+        </p>
+        <div class="marquesina-pista" aria-hidden="true">
+          <div class="marquesina-grupo">
+            <span>Python</span><span class="punto">·</span><span>FastAPI</span><span class="punto">·</span
+            ><span>Vue 3</span><span class="punto">·</span><span>TypeScript</span
+            ><span class="punto">·</span><span>React</span><span class="punto">·</span
+            ><span>Next.js</span><span class="punto">·</span><span>Django</span
+            ><span class="punto">·</span><span>Flutter</span><span class="punto">·</span
+            ><span>OpenCV</span><span class="punto">·</span><span>PyTorch</span
+            ><span class="punto">·</span><span>MariaDB</span><span class="punto">·</span
+            ><span>Firebase</span><span class="punto">·</span><span>Docker</span
+            ><span class="punto">·</span>
+          </div>
+          <div class="marquesina-grupo">
+            <span>Python</span><span class="punto">·</span><span>FastAPI</span><span class="punto">·</span
+            ><span>Vue 3</span><span class="punto">·</span><span>TypeScript</span
+            ><span class="punto">·</span><span>React</span><span class="punto">·</span
+            ><span>Next.js</span><span class="punto">·</span><span>Django</span
+            ><span class="punto">·</span><span>Flutter</span><span class="punto">·</span
+            ><span>OpenCV</span><span class="punto">·</span><span>PyTorch</span
+            ><span class="punto">·</span><span>MariaDB</span><span class="punto">·</span
+            ><span>Firebase</span><span class="punto">·</span><span>Docker</span
+            ><span class="punto">·</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre lado" id="sobre-mi" aria-labelledby="sobre-titulo">
+        <figure class="foto">
+          <img
+            src="img/retrato.webp"
+            alt="Retrato de César Rocha sonriendo, con camisa polo negra"
+            width="1000"
+            height="1000"
+            loading="lazy"
+          />
+        </figure>
+
+        <div class="sobre-texto">
+          <p class="etiqueta">Sobre mí</p>
+          <h2 id="sobre-titulo">Construyo soluciones web completas.</h2>
+          <p class="sobre-lema">Café, código y soluciones que funcionan.</p>
+          <p>
+            Soy Ingeniero en Electrónica y Automatización. Mi camino en el desarrollo empezó como
+            freelance creando aplicaciones web y móviles, siguió en la industria con sistemas de
+            visión por computadora, y hoy diseño plataformas web SaaS para empresas.
+          </p>
+          <p>
+            Me motiva entender el problema antes de escribir código y entregar soluciones que sigan
+            funcionando bien meses después. Cuando no estoy desarrollando, sigo aprendiendo:
+            probando herramientas nuevas o leyendo sobre temas que aún no domino.
+          </p>
+
+          <ul class="principios">
+            <li>
+              <h3>Código limpio</h3>
+              <p>Soluciones legibles y mantenibles que aguantan el paso del tiempo.</p>
+            </li>
+            <li>
+              <h3>Enfoque en producto</h3>
+              <p>Del concepto al despliegue, con foco en lo que aporta valor real.</p>
+            </li>
+            <li>
+              <h3>Mejora continua</h3>
+              <p>Mejoro el código que ya funciona y depuro el que aún no compila.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <figure class="panorama">
+        <img
+          src="img/laguna.webp"
+          alt="César Rocha, de espaldas, mirando la Laguna del Carpintero de noche"
+          width="1800"
+          height="1350"
+          loading="lazy"
+        />
+        <figcaption class="lado">Laguna del Carpintero · Tampico, Tamaulipas</figcaption>
+      </figure>
+
+      <section class="experiencia lado" id="experiencia" aria-labelledby="experiencia-titulo">
+        <div class="seccion-cabecera">
+          <h2 id="experiencia-titulo">Experiencia</h2>
+          <p>Lo que construyo hoy y el camino que me trajo hasta aquí.</p>
+        </div>
+
+        <div class="puestos">
+          <article class="puesto">
+            <div class="puesto-cuando">
+              <span class="puesto-fecha puesto-actual">2026 — Actualidad</span>
+              <span>México</span>
+              <span class="puesto-nuevo">Nuevo</span>
+            </div>
+            <div class="puesto-cuerpo">
+              <h3>Technology Lead</h3>
+              <p class="puesto-empresa">
+                <a href="https://digitalbf.tech">Digital Boost Factory ↗</a>
+              </p>
+              <p>
+                Estoy iniciando un proyecto como Technology Lead en Digital Boost Factory, una
+                consultoría tecnológica en México que convierte procesos complejos en soluciones
+                digitales automatizadas, medibles y escalables. Un rol que une mi experiencia en
+                desarrollo full stack, inteligencia artificial y Power Platform.
+              </p>
+              <ul class="puesto-logros">
+                <li>Inteligencia artificial, agentes de IA y automatización de procesos para reducir trabajo manual y acelerar operaciones.</li>
+                <li>Aplicaciones, automatizaciones e integraciones sobre Microsoft Power Platform, y dashboards de Business Intelligence para decidir con datos.</li>
+                <li>Un enfoque que empieza por el negocio y no por la tecnología: entender, diseñar, implementar, adoptar y medir.</li>
+              </ul>
+              <ul class="etiquetas" aria-label="Tecnologías">
+                <li>Inteligencia Artificial</li><li>Agentes de IA</li><li>Power Automate</li><li>Copilot Studio</li><li>Power BI</li><li>Power Platform</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="puesto">
+            <div class="puesto-cuando">
+              <span class="puesto-fecha puesto-actual">Actualidad</span>
+              <span>Presencial · Madero, México</span>
+            </div>
+            <div class="puesto-cuerpo">
+              <h3>Desarrollador Full Stack</h3>
+              <p class="puesto-empresa">PBXHosting</p>
+              <p>
+                Trabajo en el desarrollo de una plataforma omnicanal SaaS multi-tenant que unifica
+                telefonía VoIP, WhatsApp Business y agentes de IA en un solo panel para empresas.
+              </p>
+              <ul class="puesto-logros">
+                <li>Backend en Python (FastAPI) con arquitectura multi-tenant, JWT + 2FA y control de acceso por roles y módulos.</li>
+                <li>Frontend administrativo en Vue 3 + TypeScript con Pinia, Vue Router y PWA para gestión de DIDs, campañas y usuarios.</li>
+                <li>Integraciones con WhatsApp Business API (Meta) y Stripe.</li>
+                <li>Diseño de endpoints y modelos, priorizando mantenibilidad y seguridad.</li>
+              </ul>
+              <ul class="etiquetas" aria-label="Tecnologías">
+                <li>Python</li><li>FastAPI</li><li>Vue 3</li><li>TypeScript</li><li>Pinia</li><li>SQLAlchemy</li><li>MariaDB</li><li>Stripe</li><li>WhatsApp API</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="puesto">
+            <div class="puesto-cuando">
+              <span class="puesto-fecha">May 2024 — Jun 2025</span>
+              <span>Altamira, Tamaulipas</span>
+            </div>
+            <div class="puesto-cuerpo">
+              <h3>Becario de Programación y Automatización Industrial</h3>
+              <p class="puesto-empresa">Alphagary (Orbia)</p>
+              <p>
+                Desarrollo de sistemas de visión computacional y automatización para una planta
+                industrial del grupo Orbia: seguridad, inspección y reportes en tiempo real.
+              </p>
+              <ul class="puesto-logros">
+                <li>Visión computacional con Python y OpenCV para detección de EPP en áreas críticas y de peatones desde montacargas, integrando cámaras industriales, displays de checklist y notificaciones automáticas por correo.</li>
+                <li>Aplicaciones en Power Apps para inspecciones, control de equipos y recorridos en planta, conectadas con Power Automate, SharePoint y Power BI para dashboards de seguridad en tiempo real.</li>
+                <li>Automatización de flujos operativos e integración con APIs externas mediante scripts en Python, mejorando trazabilidad y productividad.</li>
+              </ul>
+              <ul class="etiquetas" aria-label="Tecnologías">
+                <li>Python</li><li>OpenCV</li><li>Power Apps</li><li>Power Automate</li><li>Power BI</li><li>SharePoint</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="puesto">
+            <div class="puesto-cuando">
+              <span class="puesto-fecha puesto-actual">2023 — Actualidad</span>
+              <span>Remoto</span>
+            </div>
+            <div class="puesto-cuerpo">
+              <h3>Desarrollador Freelance</h3>
+              <p class="puesto-empresa">Independiente</p>
+              <p>
+                Diseño y construcción de aplicaciones a medida para clientes: desde APIs REST y
+                dashboards analíticos hasta soluciones móviles y modelos de machine learning
+                aplicados.
+              </p>
+              <ul class="puesto-logros">
+                <li>Aplicaciones web y móviles en Flutter, Django y Flask, con bases de datos SQL y dashboards analíticos.</li>
+                <li>APIs REST y servicios backend escalables en Python para gestión y análisis de datos.</li>
+                <li>Modelos de machine learning para reconocimiento de objetos y análisis predictivo con PyTorch, TensorFlow y OpenCV.</li>
+              </ul>
+              <ul class="etiquetas" aria-label="Tecnologías">
+                <li>Python</li><li>Django</li><li>Flask</li><li>Flutter</li><li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li><li>SQL</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="formacion">
+          <div class="tarjeta">
+            <h3 class="tarjeta-titulo">Educación</h3>
+            <p class="tarjeta-principal">Ingeniería en Electrónica y Automatización</p>
+            <p>Universidad Politécnica de Altamira · 2020 — 2024</p>
+          </div>
+          <div class="tarjeta">
+            <h3 class="tarjeta-titulo">Idiomas</h3>
+            <dl class="idiomas">
+              <div><dt>Español</dt><dd>Nativo</dd></div>
+              <div><dt>Inglés</dt><dd>Avanzado · B2</dd></div>
+              <div><dt>Francés</dt><dd>Intermedio · B1</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack lado" id="stack" aria-labelledby="stack-titulo">
+        <div class="seccion-cabecera">
+          <h2 id="stack-titulo">Stack</h2>
+          <p>Las herramientas con las que diseño, construyo y despliego.</p>
+        </div>
+        <div class="stack-grupos">
+          <div class="tarjeta">
+            <h3 class="tarjeta-titulo">Frontend</h3>
+            <p>Interfaces modernas, accesibles y rápidas.</p>
+            <ul class="etiquetas">
+              <li>Vue 3</li><li>React</li><li>Next.js</li><li>TypeScript</li><li>JavaScript</li><li>Pinia</li><li>CoreUI</li><li>Tailwind CSS</li><li>Flutter</li>
+            </ul>
+          </div>
+          <div class="tarjeta">
+            <h3 class="tarjeta-titulo">Backend</h3>
+            <p>APIs sólidas, seguras y multi-tenant.</p>
+            <ul class="etiquetas">
+              <li>Python</li><li>FastAPI</li><li>Django</li><li>Flask</li><li>Node.js</li><li>Express.js</li><li>JWT / 2FA</li><li>SQLAlchemy</li><li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="tarjeta">
+            <h3 class="tarjeta-titulo">IA y visión computacional</h3>
+            <p>Datos, modelos y automatización inteligente.</p>
+            <ul class="etiquetas">
+              <li>OpenCV</li><li>PyTorch</li><li>TensorFlow</li><li>Machine Learning</li><li>Power Apps</li><li>Power Automate</li><li>Power BI</li>
+            </ul>
+          </div>
+          <div class="tarjeta">
+            <h3 class="tarjeta-titulo">Bases de datos y DevOps</h3>
+            <p>Persistencia y despliegue confiable.</p>
+            <ul class="etiquetas">
+              <li>MariaDB</li><li>MySQL</li><li>SQL</li><li>Firebase</li><li>Git</li><li>GitHub</li><li>Docker</li><li>Linux</li><li>CI/CD</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="proyectos lado" id="proyectos" aria-labelledby="proyectos-titulo">
+        <div class="seccion-cabecera">
+          <h2 id="proyectos-titulo">Proyectos</h2>
+          <p>Toca uno para ver los detalles.</p>
+        </div>
+
+        <div class="acordeon">
+          <details class="proyecto" name="proyectos" open>
+            <summary>
+              <span class="proyecto-num">01</span>
+              <span class="proyecto-nombre">Plataforma Omnicanal</span>
+              <span class="proyecto-tipo">PBXHosting · SaaS</span>
+              <span class="proyecto-icono" aria-hidden="true"></span>
+            </summary>
+            <div class="proyecto-cuerpo">
+              <div class="proyecto-texto">
+                <p>
+                  Producto SaaS multi-tenant que integra telefonía VoIP, WhatsApp Business, SMS y
+                  agentes de IA. Desarrollo el backend (FastAPI) y el panel administrativo (Vue 3):
+                  proyecto corporativo en PBXHosting.
+                </p>
+                <ul class="etiquetas" aria-label="Tecnologías">
+                  <li>FastAPI</li><li>Vue 3</li><li>TypeScript</li><li>MariaDB</li><li>WhatsApp API</li><li>Stripe</li>
+                </ul>
+                <span class="privado">Repositorio privado</span>
+              </div>
+              <div class="proyecto-vista">
+                <span class="vista-nombre">Plataforma Omnicanal</span>
+                <span class="vista-ruta">VoIP · WhatsApp · SMS · agentes de IA</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="proyecto" name="proyectos">
+            <summary>
+              <span class="proyecto-num">02</span>
+              <span class="proyecto-nombre">Visión Computacional Industrial</span>
+              <span class="proyecto-tipo">Alphagary (Orbia)</span>
+              <span class="proyecto-icono" aria-hidden="true"></span>
+            </summary>
+            <div class="proyecto-cuerpo">
+              <div class="proyecto-texto">
+                <p>
+                  Sistema de detección de EPP y peatones en planta con Python y OpenCV. Cámaras
+                  industriales, alertas automáticas y dashboards de seguridad en tiempo real,
+                  desplegados en Alphagary (Orbia).
+                </p>
+                <ul class="etiquetas" aria-label="Tecnologías">
+                  <li>Python</li><li>OpenCV</li><li>Power BI</li><li>SharePoint</li>
+                </ul>
+                <span class="privado">Repositorio privado</span>
+              </div>
+              <div class="proyecto-vista">
+                <span class="vista-nombre">Visión Computacional</span>
+                <span class="vista-ruta">Detección de EPP y peatones · tiempo real</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="proyecto" name="proyectos">
+            <summary>
+              <span class="proyecto-num">03</span>
+              <span class="proyecto-nombre">App Móvil con Dashboard Analítico</span>
+              <span class="proyecto-tipo">Freelance</span>
+              <span class="proyecto-icono" aria-hidden="true"></span>
+            </summary>
+            <div class="proyecto-cuerpo">
+              <div class="proyecto-texto">
+                <p>
+                  Aplicación móvil multiplataforma desarrollada como freelance. Backend en Python
+                  (Django/Flask) con base de datos SQL, API REST y un dashboard web para
+                  visualización de métricas y reportes en tiempo real.
+                </p>
+                <ul class="etiquetas" aria-label="Tecnologías">
+                  <li>Flutter</li><li>Django</li><li>Python</li><li>SQL</li><li>REST API</li>
+                </ul>
+                <span class="privado">Repositorio privado</span>
+              </div>
+              <div class="proyecto-vista">
+                <span class="vista-nombre">App Móvil</span>
+                <span class="vista-ruta">Flutter · API REST · dashboard web</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="proyecto" name="proyectos">
+            <summary>
+              <span class="proyecto-num">04</span>
+              <span class="proyecto-nombre">Control Presupuestos Web</span>
+              <span class="proyecto-tipo">Aplicación empresarial</span>
+              <span class="proyecto-icono" aria-hidden="true"></span>
+            </summary>
+            <div class="proyecto-cuerpo">
+              <div class="proyecto-texto">
+                <p>
+                  Aplicación empresarial para gestión de requisiciones, compras, almacén, facturas y
+                  catálogos. Sistema completo con autenticación, roles, panel presupuestal y reportes
+                  operativos.
+                </p>
+                <ul class="etiquetas" aria-label="Tecnologías">
+                  <li>Next.js 16</li><li>React 19</li><li>Firebase</li><li>Firestore</li><li>Cloud Functions</li><li>React Query</li><li>Tailwind</li>
+                </ul>
+                <span class="privado">Repositorio privado</span>
+              </div>
+              <div class="proyecto-vista">
+                <span class="vista-nombre">Control Presupuestos</span>
+                <span class="vista-ruta">Requisiciones · compras · almacén · facturas</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="proyecto" name="proyectos">
+            <summary>
+              <span class="proyecto-num">05</span>
+              <span class="proyecto-nombre">PortalNexo</span>
+              <span class="proyecto-tipo">Blog y CMS · Next.js</span>
+              <span class="proyecto-icono" aria-hidden="true"></span>
+            </summary>
+            <div class="proyecto-cuerpo">
+              <div class="proyecto-texto">
+                <p>
+                  Plataforma de blog y CMS personal con Next.js 14 y Firebase. Incluye un lado
+                  público con artículos, búsqueda, categorías, etiquetas y artículos guardados, y un
+                  panel administrativo para gestionar contenido, autores, comentarios y suscriptores.
+                  Optimizada para SEO con sitemap, RSS y OpenGraph.
+                </p>
+                <ul class="etiquetas" aria-label="Tecnologías">
+                  <li>Next.js 14</li><li>TypeScript</li><li>Firebase</li><li>Firestore</li><li>Tailwind CSS</li>
+                </ul>
+                <a class="enlace-acento" href="https://github.com/cerirocha/portalnexo">Ver código ↗</a>
+              </div>
+              <div class="proyecto-vista">
+                <span class="vista-nombre">PortalNexo</span>
+                <span class="vista-ruta">github.com/cerirocha/portalnexo</span>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <a class="enlace-acento enlace-github" href="https://github.com/cerirocha">Ver todos los proyectos en GitHub ↗</a>
+      </section>
+
+      <section class="contacto lado" id="contacto" aria-labelledby="contacto-titulo">
+        <div>
+          <p class="etiqueta">Contacto</p>
+          <h2 id="contacto-titulo" data-campo="contacto">¿Tienes una vacante?</h2>
+          <p class="contacto-nota">
+            Siempre estoy abierto a colaborar en proyectos interesantes, oportunidades laborales o
+            simplemente conversar sobre tecnología.
+          </p>
+        </div>
+        <div class="contacto-acciones">
+          <div class="correo">
+            <a href="mailto:cesar.r.rocharobledo@gmail.com">cesar.r.rocharobledo@gmail.com</a>
+            <button
+              type="button"
+              class="boton boton-primario boton-chico boton-copiar"
+              data-copiar="cesar.r.rocharobledo@gmail.com"
+              hidden
+            >
+              Copiar
+            </button>
+          </div>
+          <p class="sr-only" role="status" data-aviso></p>
+          <div class="redes">
+            <a href="https://www.linkedin.com/in/cesar-ricardo-rocha-robledo-bb0331345">LinkedIn ↗</a>
+            <a href="https://github.com/cerirocha">GitHub ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie lado">
+      <span>© <span data-anio>2026</span> César Ricardo Rocha Robledo</span>
+      <span>Altamira, Tamaulipas, México</span>
+    </footer>
+  </body>
+</html>

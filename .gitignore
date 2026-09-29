@@ -1,0 +1,9 @@
+# Material que no es parte del sitio (presupuestos, scripts y binarios de Poppler)
+ppt/
+
+# Vercel
+.vercel/
+
+# Sistema
+.DS_Store
+Thumbs.db
