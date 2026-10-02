@@ -26,7 +26,7 @@
       items: [
         ["Experiencia", "Technology Lead en Digital Boost Factory (nuevo) · Full Stack en PBXHosting · antes Alphagary (Orbia) · Freelance desde 2023"],
         ["Formación", "Ingeniería en Electrónica y Automatización, Universidad Politécnica de Altamira"],
-        ["Idiomas", "Español nativo · Inglés avanzado (B2) · Francés intermedio (B1)"],
+        ["Idiomas", "Español nativo · Inglés avanzado (B2) · Francés básico (A2)"],
       ],
       contacto: "¿Tienes una vacante?",
     },
